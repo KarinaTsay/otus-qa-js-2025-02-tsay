@@ -1,7 +1,7 @@
-# Otus GIT projest
+# Otus GIT project
 
 ## Project description
-Lorem ipsumm dolorem anes
+Lorem ipsum dolorem anes
 
 ## install instruction
 ----------
@@ -16,3 +16,5 @@ Lorem ipsumm dolorem anes
 --------
 - 1
 - 2
+
+### Added random text
