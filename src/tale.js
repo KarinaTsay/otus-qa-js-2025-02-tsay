@@ -1,4 +1,4 @@
-//  функция kolobok
+//  Функция kolobok
 {
 function  kolobok(name) {
     return alert
@@ -18,10 +18,10 @@ switch (a) {
       break;
     default:
         console.log( "Нет таких значений" );
-}
+ }
 }
 
-//  функциюя newYear
+//  Функция newYear
 {
     let name = 'Снегурочка'
 
