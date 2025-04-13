@@ -1,34 +1,35 @@
 //  Функция kolobok
 {
-function  kolobok(name) {
-    return alert
-}
+  function kolobok(name) {
+    switch (name) {
+      case 'дедушка':
+        console.log('Я от дедушки ушёл')
+        break
+      case 'заяц':
+        console.log('Я от зайца ушел')
+        break
+      case 'лиса':
+        console.log('Меня съели')
+        break
+      default:
+        ц
+        console.log('Нет таких значений')
+        break
+    }
+  }
 
-let a = 'лиса';
-
-switch (a) {
-    case 'дедушка':
-        console.log( 'Я от дедушки ушёл' );
-      break;
-    case 'заяц':
-        console.log( 'Я от зайца ушел' );
-      break;
-    case 'лиса':
-        console.log( 'Меня съели' );
-      break;
-    default:
-        console.log( "Нет таких значений" );
- }
+  let res = kolobok('лиса')
+  console.log(res)
 }
 
 //  Функция newYear
-{
-    let name = 'Снегурочка'
+// {
+//     let name = 'Снегурочка'
 
-    function showMessage() {
-        let message  = name + `! `
-        console.log(message.repeat(3))
-    }
+//     function showMessage() {
+//         let message  = name + `! `
+//         console.log(message.repeat(3))
+//     }
 
-    showMessage()
-}
+//     showMessage()
+// }
