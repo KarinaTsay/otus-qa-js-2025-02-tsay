@@ -12,7 +12,6 @@
         console.log('Меня съели')
         break
       default:
-        ц
         console.log('Нет таких значений')
         break
     }
