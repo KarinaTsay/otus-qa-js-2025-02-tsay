@@ -3,13 +3,13 @@
   function kolobok(name) {
     switch (name) {
       case 'дедушка':
-        return('Я от дедушки ушёл')
+        return 'Я от дедушки ушёл'
       case 'заяц':
-        return('Я от зайца ушел')
+        return 'Я от зайца ушел'
       case 'лиса':
-        return('Меня съели')
+        return 'Меня съели'
       default:
-        return('Нет таких значений')
+        return 'Нет таких значений'
     }
   }
 
@@ -19,12 +19,12 @@
 
 //  Функция newYear
 {
-    let name = 'Снегурочка'
+  let name = 'Снегурочка'
 
-    function showMessage() {
-        let message  = name + `! `
-        console.log(message.repeat(3))
-    }
+  function showMessage() {
+    let message = name + `! `
+    console.log(message.repeat(3))
+  }
 
-    showMessage()
+  showMessage()
 }
